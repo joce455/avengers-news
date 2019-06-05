@@ -1,0 +1,23 @@
+.form-review{
+    background-image: url(../img/thanos.jpg);
+    background-size: cover;
+    height: 35rem;
+    
+    &__input-section{
+        background-color: $white;
+        -webkit-clip-path: polygon(0 0, 81% 0, 54% 100%, 0% 100%);
+        clip-path: polygon(0 0, 81% 0, 54% 100%, 0% 100%);
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+        &--content{
+            margin-left: 10rem;
+        }
+        
+       &--radio{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+       }
+    }
+
+}

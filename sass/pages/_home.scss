@@ -1,0 +1,43 @@
+.section-previus{
+    
+    padding: 25rem 0;
+    margin-top: -20vh;
+    background-image: 
+      url(../img/previus.jpg);
+      background-size: cover;
+      @include  respond(tab-port){
+        background-size: 100% 100%;
+        margin-top: -28vh;
+      }
+    
+}
+.dvd-release{
+    padding: 10rem 0;
+    background-image: 
+      url(../img/dvd.jpg);
+      background-size: cover;
+      @include  respond(tab-port){
+        background-size: 100% 100%;
+      }
+    margin-top: -10vh;
+}
+
+.fans-comments{
+  padding: 20rem 0;
+  position: relative;
+  margin-top: -10vh;
+}
+
+.form-opinion{
+  width: 100%;
+  padding: 20rem 0;
+  margin-top: -10vh;
+  background: linear-gradient(to bottom right, black, red);
+}
+
+.credits{
+  width: 100%;
+  padding: 20rem 0;
+  margin-top: -10vh;
+  background: linear-gradient(to bottom right, black, white);
+}

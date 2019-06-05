@@ -1,0 +1,30 @@
+.comment{
+    width: 75%;
+    opacity: 0.8;
+    margin: 0 auto;
+    padding: 6rem;
+    transform: skewX(-14deg);
+    background-color: $white;
+    &:not(:last-child){
+        margin-bottom: $gutter-vertical;
+    }
+    
+    & > * {
+        transform: skewX(14deg);
+    }
+    &__photo{
+        width: 15rem;
+        height: 15rem;
+        background-color: $red;
+        margin-right: 1rem;
+        float: left;
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside:  circle(50% at 50% 50%);
+        clip-path:  circle(50% at 50% 50%);
+    }
+    &__image{
+        height: 100%;
+    }
+   
+
+}

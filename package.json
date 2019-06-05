@@ -1,0 +1,15 @@
+{
+  "name": "movies-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass sass -o css -w"
+  },
+  "keywords": [],
+  "author": "jose juarez",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

@@ -1,0 +1,11 @@
+.rating{
+    & > span:hover:before,
+    & > span:hover ~ span:before {
+       content: "\2605";
+       position: absolute;
+    }
+    &__star{
+        font-size: 3rem;
+        color: $black;
+    }
+}

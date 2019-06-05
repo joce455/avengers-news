@@ -1,0 +1,14 @@
+.input-text{
+    display: block;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    color: $black;
+    font-weight: 10rem;
+    font-size: 2rem;
+
+    &:focus{
+        background: $black;
+        color: $white;
+    }
+}

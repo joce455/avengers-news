@@ -1,0 +1,41 @@
+.btn {
+  
+   
+    &:link,//estado likn y visitado
+    &:visited{
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 15px 40px;
+      border-radius: 100px;
+    }
+    &:hover{
+      box-shadow:  5px  5px $black; 
+    }
+
+    &:active{
+      background-color: $black;
+      color: $white;
+      box-shadow:  0px  0px $black; 
+    }
+   
+    &--white{
+      background-color: $white;
+      color: $black;
+      border: 1px solid $black; 
+      font-weight: 3rem;
+    }
+    &--black{
+      background-color: $black;
+      color: $white;
+      font-weight: 3rem;
+    }
+
+    &--red{
+       display: inline-block;
+       background-color: $red;
+       color: $white;
+       margin-top: 1rem;
+    }
+    
+  
+  }
